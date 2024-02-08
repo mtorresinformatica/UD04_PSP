@@ -28,10 +28,8 @@ public class EnviarCorreo {
     public static void main(String[] args) throws AddressException, MessagingException, IOException {
 
         final Properties prop = new Properties();
-        //prop.put("mail.smtp.username", "mtorres@iestrassierra.com");
-        //prop.put("mail.smtp.password", "canbvcwmblkcifqu");
-        prop.put("mail.smtp.username", "manueltorres.informatica@gmail.com");
-        prop.put("mail.smtp.password", "tbcurryhmqjqulju");
+        prop.put("mail.smtp.username", "username@gmail.com");
+        prop.put("mail.smtp.password", "contraseña generada en la configuración de gmail");
         prop.put("mail.smtp.host", "smtp.gmail.com");
         prop.put("mail.smtp.port", "587");
         prop.put("mail.smtp.auth", "true");

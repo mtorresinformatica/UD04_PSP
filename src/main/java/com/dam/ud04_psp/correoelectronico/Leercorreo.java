@@ -24,8 +24,8 @@ public class Leercorreo {
             MessagingException, IOException {
 
         final Properties prop = new Properties();
-        prop.put("mail.imap.username", "manueltorres.informatica@gmail.com");
-        prop.put("mail.imap.password", "tbcurryhmqjqulju");
+        prop.put("mail.imap.username", "username@gmail.com");
+        prop.put("mail.imap.password", "contraseña generada en la configuración de gmail");
         prop.put("mail.imap.host", "imap.gmail.com");
         prop.put("mail.imap.port", "993");
         prop.put("mail.imap.ssl.enable", "true");
