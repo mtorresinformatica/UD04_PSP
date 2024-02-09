@@ -47,16 +47,16 @@ public class EnviarCorreo {
         // Prepare the MimeMessage
         Message message = new MimeMessage(mailSession);
 // Set From and subject email properties
-        message.setFrom(new InternetAddress("mtorres@iestrassierra.com"));
+        message.setFrom(new InternetAddress("username@gmail.com"));
         message.setSubject("Sending Mail with pure Jakarta Mail API ");
 
 // Set to, cc & bcc recipients        
         InternetAddress[] toEmailAddresses
-                = InternetAddress.parse("mtorres@iestrassierra.com");
+                = InternetAddress.parse("username@gmail.com");
         InternetAddress[] ccEmailAddresses
-                = InternetAddress.parse("manueltorres.informatica@gmail.com");
+                = InternetAddress.parse("correo1@gmail.com");
         InternetAddress[] bccEmailAddresses
-                = InternetAddress.parse("salesianas.informatica@gmail.com");
+                = InternetAddress.parse("correo2@gmail.com");
 
         message.setRecipients(Message.RecipientType.TO, toEmailAddresses);
         message.setRecipients(Message.RecipientType.CC, ccEmailAddresses);
